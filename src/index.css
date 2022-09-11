@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.profilePic {
+  width: 60%;
+  margin-left: 30%;
+  overflow: hidden;
+}
+
+.text-bolder {
+  font-weight: 700;
+}
+
+.text-boldest {
+  font-weight: 900;
+}
+
+.color-customBlue {
+  color: #091292 !important;
+}
+
+.color-customBlueLight {
+  color: #516897 !important;
+}
+
+.color-customBlueLighter {
+  color: #a299b6;
+}
+
+.bg-customBlue {
+  background-color: #091292 !important;
+}
+
+.bg-skyBlue {
+  background-color: skyblue !important;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.s-logo {
+  width: 40px;
+  background-color: #071b4b;
+  height: 40px;
+  text-align: center;
+  padding-top: -15px;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.navLink {
+  min-width: 100px;
+}
+
+.bg-progress-progCustomBlue {
+  background-color: #071b4b !important;
+  /* color: white; */
+}
+
+.neomorphIconCard {
+  /* transform: rotate(-150deg); */
+  /* background: #f9f9f9;
+  box-shadow: -5px -7px 8px 0 rgba(0,0,0,.04), 5px 7px 8px 0 #fff;
+  border-radius: 36px;
+  position: absolute; */
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  /* border-radius: 18px;
+  padding: 2px;
+  box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #ffffff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; */
+}
+
+.skillWraper {
+  position: relative;
+}
+
+.skillsImg {
+  width: 150px;
+  transition: width 0.15s;
+  transition-timing-function: ease-in-out;
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  cursor: pointer;
+  opacity: 1;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.skillName {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(135, 175, 255, 0.85);
+  padding: 5px;
+  color: #071b4b;
+  font-weight: 600;
+  visibility: hidden;
+}
+
+.skillWraper:hover .skillsImg {
+  width: 180px;
+  filter: none;
+}
+
+.skillWraper:hover .skillName {
+  visibility: visible;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.headingMargin {
+  margin-left: 15px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.smallImgContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Projects page */
+.proj-image {
+  /* width: 300px; */
+  border-radius: 20px;
+}
+
+.projectBtn {
+  margin-top: 10px;
+}
+
+/* Contact page */
+.contact-btns span {
+  max-width: 0;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.contact-btns:hover span {
+  max-width: 7rem;
+  /* padding-left: 5px; */
+}
+
+.contact-btns:hover span::before {
+  content: "|";
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffffffbd;
+}
+
+.badgeDiv {
+  margin-top: 10px;
+}
+
+.badge {
+  background-color: #3d34eb;
+  color: #fff;
+  font-size: small;
+  margin: 5px;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 600px) {
+}
